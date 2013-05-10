@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Recommendit: Subreddit Recommender</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<script src="js/bootstrap.min.js"></script>
+
+		<link href="design.css" rel="stylesheet" media="screen">
+
+		<script src="jquery.min.js"></script>
+		<script src="recommendit.js"></script>
+
+	</head>
+	<body>
+		<div class='container'>
+			<div id='removeConfig' class='row-fluid'>
+				<div class='span9 main'>
+					
+					<div class="sect">
+						<h2>Recommendit</h2>
+						<h5><i>a subreddit recommender</i></h5>
+						<div id="content">
+							<div class="input-append">
+								<input id="username" type="text" class="input-large" placeholder="Type a username">
+								<a href="#" class="btn btn-info" id="recBtn">Recommend me</a>
+							</div>
+						</div>
+					</div>
+					<div id="notif-block" class="alert alert-block">
+						<button id="notif-button" type="button" class="close" data-dismiss="alert">
+							&times;
+						</button>
+						<div id="notif-content"></div>
+					</div>
+					<div class="output">
+						<div class="backBtn">
+							<h6><i class="icon-arrow-up"></i> Let me try that again</h6>
+						</div>
+						<div class="sect2">
+							<div class="output-title"></div>
+							<div class="output-content"></div>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="loader">
+					<h2> Loading... </h2>
+					<h5> (analyzing 23000+ subreddits)</h5>
+					<img src="ajax-loader.gif">
+				</div>
+
+	</body>
+</html>

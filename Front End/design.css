@@ -1,0 +1,79 @@
+body {
+	background-color: white;
+}
+
+#notif-block{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	visibility: hidden;
+}
+.loader {
+	position: fixed;
+	z-index: 1000;
+	left: 40%;
+	color: gray;
+	top: 150%;
+}
+.output-content {
+	text-align:center;
+}
+.sect {
+	background-color: white;
+	top: 20%;
+	left: 38%;
+	width: 350px;
+	position: fixed;
+	box-shadow: 0px 0px 10px #888;
+	padding: 20px 20px 20px 20px;
+	border-radius: 5px;
+}
+.output {
+	top: 150%;
+}
+.backBtn {
+	position: fixed;
+	top: inherit;
+	left: 0%;
+	color: gray;
+}
+.sect2 {
+	background-color: white;
+	margin: 20px auto;
+	top: inherit;
+	width: 800px;
+	position: fixed;
+	box-shadow: 0px 0px 10px #888;
+	padding: 20px 20px 20px 20px;
+	border-radius: 5px;
+}
+
+.well {
+	position: fixed;
+	top: 25%;
+	background-color: white;
+}
+h5 {
+	color: gray;
+}
+#content {
+	background-color: #FFF;
+	border-radius: 5px;
+}
+#content .main {
+	padding: 20px;
+}
+
+.well {
+	width: 860px;
+}
+
+textarea {
+	width: 500px;
+	min-width: 500px;
+	max-height: 500px;
+	height: 50px;
+	min-height: 50px;
+	max-height: 50px;
+}
